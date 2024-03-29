@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAA6A6"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Envoie de demande de position "
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/ednumero_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Saisir le numero" />
+
+    <Button
+        android:id="@+id/btn_send_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Envoie SMS" />
+</LinearLayout>
